@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(7, 7, 7);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    width: 220px;
+    height: 320px;
+    margin: 10px; 
+    border-radius: 15px;
+}
+.card a{
+    text-decoration: none;
+}
+.card-image{
+    background-color: aqua;
+    height:170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+
+.car-1{
+    background-image: url(./car.jpg);
+}
+.car-2{
+    background-image: url(./car.jpg);
+}
+.car-3{
+    background-image: url(./car.jpg);
+}
+
+.card p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+}
+.card a{
+    background-color: black;
+    color: #fff;
+    padding: 8px 8px;
+    text-align: center;
+    display: block;
+    margin: 0px 50px;
+    border-radius: 20px;
+}
